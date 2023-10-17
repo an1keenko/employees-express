@@ -7,7 +7,7 @@ import { useNavigate, Link, useParams, Navigate } from "react-router-dom";
 import {
     useGetEmployeeQuery,
     useRemoveEmployeeMutation,
-} from "../../app/serivices/employees";
+} from "../../app/services/employees";
 import { Layout } from "../../components/layout";
 import { isErrorWithMessage } from "../../utils/is-error-with-message";
 import { ErrorMessage } from "../../components/error-message";

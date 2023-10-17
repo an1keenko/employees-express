@@ -6,7 +6,7 @@ import { Layout } from "../../components/layout";
 import { useSelector } from "react-redux";
 import { selectUser } from "../../features/auth/authSlice";
 import { useEffect } from "react";
-import { useAddEmployeeMutation } from "../../app/serivices/employees";
+import { useAddEmployeeMutation } from "../../app/services/employees";
 import { Employee } from "@prisma/client";
 import { isErrorWithMessage } from "../../utils/is-error-with-message";
 import { Paths } from "../../paths";

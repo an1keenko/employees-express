@@ -43,7 +43,7 @@ const add = async (req, res) => {
 };
 
 /**
- * @route POST /api/empoyees/remove/:id
+ * @route POST /api/employees/remove/:id
  * @desc Delete employee
  * @access Private
  */
@@ -64,7 +64,7 @@ const remove = async (req, res) => {
 };
 
 /**
- * @route PUT /api/empoyees/edit/:id
+ * @route PUT /api/employees/edit/:id
  * @desc Edit employee
  * @access Private
  */

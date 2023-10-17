@@ -9,6 +9,9 @@
     "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/material": "^5.14.13",
     "@prisma/client": "^4.8.1",
     "bcrypt": "^5.1.0",
     "concurrently": "^7.6.0",

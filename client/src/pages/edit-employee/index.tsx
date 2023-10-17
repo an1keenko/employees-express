@@ -2,7 +2,7 @@ import { Employee } from "@prisma/client";
 import { Row } from "antd";
 import { useState } from 'react';
 import { useNavigate, useParams } from "react-router-dom";
-import { useEditEmployeeMutation, useGetEmployeeQuery } from "../../app/serivices/employees";
+import { useEditEmployeeMutation, useGetEmployeeQuery } from "../../app/services/employees";
 import { EmployeeForm } from "../../components/employee-form";
 import { Layout } from "../../components/layout";
 import { Paths } from "../../paths";

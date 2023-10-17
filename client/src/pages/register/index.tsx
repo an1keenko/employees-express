@@ -3,7 +3,7 @@ import { Card, Form, Row, Space, Typography } from "antd";
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
-import { useRegisterMutation } from "../../app/serivices/auth";
+import { useRegisterMutation } from "../../app/services/auth";
 import { CustomButton } from "../../components/custom-button";
 import { CustomInput } from "../../components/custom-input";
 import { ErrorMessage } from "../../components/error-message";
